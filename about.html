@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - DevOps Assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-width: 700px;
+        }
+        h1 {
+            color: #f5576c;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        h2 {
+            color: #f5576c;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f5576c;
+            padding-bottom: 10px;
+        }
+        p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tech-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #f5576c;
+        }
+        .tech-item strong {
+            color: #f5576c;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .nav-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+        a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 About This Project</h1>
+        
+        <h2>Project Overview</h2>
+        <p>This web application is part of a DevOps assignment that demonstrates essential DevOps practices including version control with Git and containerization with Docker.</p>
+        
+        <h2>Technologies Used</h2>
+        <div class="tech-stack">
+            <div class="tech-item">
+                <strong>HTML5</strong>
+                <span>Modern web structure</span>
+            </div>
+            <div class="tech-item">
+                <strong>CSS3</strong>
+                <span>Styling and layout</span>
+            </div>
+            <div class="tech-item">
+                <strong>Git</strong>
+                <span>Version control</span>
+            </div>
+            <div class="tech-item">
+                <strong>Docker</strong>
+                <span>Containerization</span>
+            </div>
+        </div>
+
+        <h2>Assignment Objectives</h2>
+        <p>This assignment covers:</p>
+        <ul style="color: #555; line-height: 1.8; margin-left: 20px;">
+            <li>Setting up a local Git repository</li>
+            <li>Demonstrating Git commands (init, status, add, commit, log, branch, switch)</li>
+            <li>Integrating with GitHub</li>
+            <li>Creating a Docker image</li>
+            <li>Pushing to Docker Hub</li>
+            <li>Running containers locally</li>
+        </ul>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
+
